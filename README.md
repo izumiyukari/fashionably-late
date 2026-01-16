@@ -13,16 +13,17 @@ COACHTECH 基礎学習ターム 確認テスト  お問い合わせフォーム�
 
 ## 環境構築
 ```bash
-# リポジトリのクローン
+# 1.リポジトリの取得
 git clone git@github.com:izumiyukari/fashionably-late.git
 cd fashionably-late
 
-# Dockerのビルド・起動
+# 2.Dockerのビルド・起動
 docker-compose up -d --build
 
-# Laravelの初期設定
+# ３.Laravelの初期設定（PHPコンテナ内に入って実行）
 docker-compose exec php bash
 
+# ---以降はコンテナ内で実行 ---
 # パッケージのインストール
 composer install
 
