@@ -14,7 +14,6 @@ COACHTECH 基礎学習ターム 確認テスト  お問い合わせフォーム�
 ## 環境構築
 ```bash
 # リポジトリのクローン
-
 git clone git@github.com:izumiyukari/fashionably-late.git
 cd fashionably-late
 
@@ -33,7 +32,6 @@ php artisan key:generate
 
 # マイグレーション実行
 php artisan migrate
-exit
 ```
 
 ## 開発環境URL
