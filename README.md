@@ -36,10 +36,12 @@ php artisan migrate
 ```
 
 ## 開発環境URL
+- **[phpMyAdmin]** [http://localhost:8080](http://localhost:8080)
 - **[お問合せ画面]** [http://localhost/](http://localhost/)
 - **[ユーザ登録]** [http://localhost/register](http://localhost/register)
 - **[ログイン]** [http://localhost/login](http://localhost/login)
-- **[phpMyAdmin]** [http://localhost:8080](http://localhost:8080)
+- **[管理画面]** [http://localhost/admin](http://localhost/admin)
+*管理画面はログイン後、管理者権限を持つユーザのみアクセス可能です。
 
 ## 使用技術(実行環境)
 - PHP 8.1
@@ -49,3 +51,7 @@ php artisan migrate
 
 ## ER図
 ![ER図](./docs/er-diagram.png)
+
+## 補足
+本アプリではダミーの商品画像を
+public/images/dummy 配下に配置しています。
